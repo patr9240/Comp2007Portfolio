@@ -16,7 +16,7 @@
                     <div class="panel-body">
 
                         <address>
-                            <strong>Jesse Baril</strong><br>
+                            <strong>Patrick Ross</strong><br>
                             67 Toronto Street<br>
                             Barrie, CA L9L 9L9<br>
                             <abbr title="Phone">TEL:</abbr>
