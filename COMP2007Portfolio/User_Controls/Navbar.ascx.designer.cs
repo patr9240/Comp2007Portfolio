@@ -22,13 +22,13 @@ namespace COMP2007Portfolio {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
         
         /// <summary>
-        /// products control.
+        /// portfolio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl products;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl portfolio;
         
         /// <summary>
         /// services control.
