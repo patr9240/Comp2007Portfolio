@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Portfolio" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Portfolio.aspx.cs" Inherits="COMP2007Portfolio.Products" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <section class="no-padding" id="portfolio">
+    <section class="bg-primary" id="portfolio">
     <br />
     <br />
     <br />

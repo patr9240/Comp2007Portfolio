@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Services" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Services.aspx.cs" Inherits="COMP2007Portfolio.Services" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <section class="no-padding" id="services">
+    <section class="bg-primary" id="services">
     <br />
     <br />
     <br />
