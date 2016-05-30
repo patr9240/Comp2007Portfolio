@@ -1,5 +1,8 @@
 ﻿<%@ Page Title="About Me" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="COMP2007Portfolio.About" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <header>
+
+    </header>
      <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
