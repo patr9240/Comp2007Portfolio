@@ -1,8 +1,5 @@
 ﻿<%@ Page Title="About Me" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="COMP2007Portfolio.About" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <header>
-
-    </header>
      <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
@@ -18,6 +15,7 @@
                     <p class="text-faded">I have worked at K-Line Maintenance and Construction for a Co-op as I.T. Support. While there, I assisted
                         users with any electronic related problem, setting up new phones, accounts, and computers as well
                         as programming in Visual Basic and assisting in developing their website.</p>
+                    
                 </div>
             </div>
         </div>

@@ -1,10 +1,10 @@
 ﻿<%@ Page Title="Services" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Services.aspx.cs" Inherits="COMP2007Portfolio.Services" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <section class="no-padding" id="services">
     <br />
     <br />
     <br />
-     <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

@@ -1,13 +1,13 @@
 ﻿<%@ Page Title="Portfolio" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Portfolio.aspx.cs" Inherits="COMP2007Portfolio.Products" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+         <div class="container-fluid">
             <div class="row no-gutter">
                 <!-- link to all sport sewing project -->
                 <div class="col-lg-4 col-sm-6">

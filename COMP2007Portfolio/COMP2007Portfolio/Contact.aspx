@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="COMP2007Portfolio.contact" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <section class="no-padding" id="contact">
     <br />
     <br />
     <br />
@@ -56,4 +57,5 @@
                     <i class="fa fa-linkedin-square fa-3x"></i>
                     <p><a href="https://www.linkedin.com/in/patrick-ross-75271a106?trk=hp-identity-name">Check me out on Linkedin!</a></p>
                 </div>
+        </section>
 </asp:Content>
