@@ -1,18 +1,30 @@
 ﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="COMP2007Portfolio._default" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <br />
-    <br />
-    <br />
-    <br /> 
-    <br />
-    <br />
-    <br />
-    <br /> 
-    <br />
-    <br />
-    <br />
-    <br /> 
     <section class="bg-primary" id="default">
+    <br />
+    <br />
+    <br />
+    <br /> 
+    <br />
+    <br />
+    <br />
+    <br /> 
+    <br />
+    <br />
+    <br />
+    <br />  <br />
+    <br />
+    <br />
+    <br /> 
+    <br />
+    <br />
+    <br />
+    <br /> 
+    <br />
+    <br />
+    <br />
+    <br /> 
+    
 
     <div class="header-content">
             <div class="header-content-inner">
