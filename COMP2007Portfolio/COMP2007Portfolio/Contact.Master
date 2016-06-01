@@ -1,11 +1,11 @@
 ﻿<!-- 
-     Site.Master
+     Contact.Master 
      Patrick Ross
      COMP2007Portfolio
-     This is general master page for my portfolio website
+     This is the master page for my contact page
 -->
 
-<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP2007Portfolio.Site" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Contact.master.cs" Inherits="COMP2007Portfolio.Contact" %>
 
 <%@ Register Src="~/User_Controls/Navbar.ascx" TagName="Navbar" TagPrefix="bs3" %>
 <!DOCTYPE html>

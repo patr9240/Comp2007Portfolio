@@ -94,46 +94,46 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="images\433463.jpg" />
-    <Content Include="images\favicon\android-chrome-144x144.png" />
-    <Content Include="images\favicon\android-chrome-192x192.png" />
-    <Content Include="images\favicon\android-chrome-36x36.png" />
-    <Content Include="images\favicon\android-chrome-48x48.png" />
-    <Content Include="images\favicon\android-chrome-72x72.png" />
-    <Content Include="images\favicon\android-chrome-96x96.png" />
-    <Content Include="images\favicon\apple-touch-icon-114x114.png" />
-    <Content Include="images\favicon\apple-touch-icon-120x120.png" />
-    <Content Include="images\favicon\apple-touch-icon-144x144.png" />
-    <Content Include="images\favicon\apple-touch-icon-152x152.png" />
-    <Content Include="images\favicon\apple-touch-icon-180x180.png" />
-    <Content Include="images\favicon\apple-touch-icon-57x57.png" />
-    <Content Include="images\favicon\apple-touch-icon-60x60.png" />
-    <Content Include="images\favicon\apple-touch-icon-72x72.png" />
-    <Content Include="images\favicon\apple-touch-icon-76x76.png" />
-    <Content Include="images\favicon\apple-touch-icon-precomposed.png" />
-    <Content Include="images\favicon\apple-touch-icon.png" />
-    <Content Include="images\favicon\browserconfig.xml" />
-    <Content Include="images\favicon\favicon-16x16.png" />
-    <Content Include="images\favicon\favicon-32x32.png" />
-    <Content Include="images\favicon\favicon-96x96.png" />
-    <Content Include="images\favicon\favicon.ico" />
-    <Content Include="images\favicon\mstile-144x144.png" />
-    <Content Include="images\favicon\mstile-150x150.png" />
-    <Content Include="images\favicon\mstile-310x150.png" />
-    <Content Include="images\favicon\mstile-310x310.png" />
-    <Content Include="images\favicon\mstile-70x70.png" />
-    <Content Include="images\favicon\safari-pinned-tab.svg" />
-    <Content Include="images\projects\allsporthomepage.JPG" />
-    <Content Include="images\services\csharp.png" />
-    <Content Include="images\services\html.png" />
-    <Content Include="images\services\javascript.png" />
-    <Content Include="images\projects\lastclass.JPG" />
-    <Content Include="images\projects\Marlboro.JPG" />
-    <Content Include="images\mugshot.jpg" />
-    <Content Include="images\services\mysql.jpg" />
-    <Content Include="images\projects\oblivion.JPG" />
-    <Content Include="images\projects\portfoliotest.JPG" />
-    <Content Include="images\projects\register.JPG" />
+    <Content Include="Assets\433463.jpg" />
+    <Content Include="Assets\favicon\android-chrome-144x144.png" />
+    <Content Include="Assets\favicon\android-chrome-192x192.png" />
+    <Content Include="Assets\favicon\android-chrome-36x36.png" />
+    <Content Include="Assets\favicon\android-chrome-48x48.png" />
+    <Content Include="Assets\favicon\android-chrome-72x72.png" />
+    <Content Include="Assets\favicon\android-chrome-96x96.png" />
+    <Content Include="Assets\favicon\apple-touch-icon-114x114.png" />
+    <Content Include="Assets\favicon\apple-touch-icon-120x120.png" />
+    <Content Include="Assets\favicon\apple-touch-icon-144x144.png" />
+    <Content Include="Assets\favicon\apple-touch-icon-152x152.png" />
+    <Content Include="Assets\favicon\apple-touch-icon-180x180.png" />
+    <Content Include="Assets\favicon\apple-touch-icon-57x57.png" />
+    <Content Include="Assets\favicon\apple-touch-icon-60x60.png" />
+    <Content Include="Assets\favicon\apple-touch-icon-72x72.png" />
+    <Content Include="Assets\favicon\apple-touch-icon-76x76.png" />
+    <Content Include="Assets\favicon\apple-touch-icon-precomposed.png" />
+    <Content Include="Assets\favicon\apple-touch-icon.png" />
+    <Content Include="Assets\favicon\browserconfig.xml" />
+    <Content Include="Assets\favicon\favicon-16x16.png" />
+    <Content Include="Assets\favicon\favicon-32x32.png" />
+    <Content Include="Assets\favicon\favicon-96x96.png" />
+    <Content Include="Assets\favicon\favicon.ico" />
+    <Content Include="Assets\favicon\mstile-144x144.png" />
+    <Content Include="Assets\favicon\mstile-150x150.png" />
+    <Content Include="Assets\favicon\mstile-310x150.png" />
+    <Content Include="Assets\favicon\mstile-310x310.png" />
+    <Content Include="Assets\favicon\mstile-70x70.png" />
+    <Content Include="Assets\favicon\safari-pinned-tab.svg" />
+    <Content Include="Assets\projects\allsporthomepage.JPG" />
+    <Content Include="Assets\services\csharp.png" />
+    <Content Include="Assets\services\html.png" />
+    <Content Include="Assets\services\javascript.png" />
+    <Content Include="Assets\projects\lastclass.JPG" />
+    <Content Include="Assets\projects\Marlboro.JPG" />
+    <Content Include="Assets\mugshot.jpg" />
+    <Content Include="Assets\services\mysql.jpg" />
+    <Content Include="Assets\projects\oblivion.JPG" />
+    <Content Include="Assets\projects\portfoliotest.JPG" />
+    <Content Include="Assets\projects\register.JPG" />
     <Content Include="Portfolio.aspx" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\creative.js" />
@@ -150,7 +150,8 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="images\favicon\manifest.json" />
+    <Content Include="Assets\favicon\manifest.json" />
+    <Content Include="Contact.Master" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\jquery-2.2.3.js" />
@@ -182,6 +183,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.Master.cs">
+      <DependentUpon>Contact.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.Master.designer.cs">
+      <DependentUpon>Contact.Master</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
