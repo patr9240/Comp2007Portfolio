@@ -1,10 +1,10 @@
-﻿<!-- 
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Navbar.ascx.cs" Inherits="COMP2007Portfolio.Navbar" %>
+<!-- 
      Navbar.ascx
      Patrick Ross
      COMP2007Portfolio
      This is the navbar that is used throughout the website
 -->
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Navbar.ascx.cs" Inherits="COMP2007Portfolio.Navbar" %>
 <body id="page-top">
     <header>
         <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
@@ -16,7 +16,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">Patrick's Portfolio</a>
+                    <a class="navbar-brand page-scroll" href="Default.aspx">Patrick's Portfolio</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

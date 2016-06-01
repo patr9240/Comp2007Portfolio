@@ -1,13 +1,12 @@
-﻿<!-- 
+﻿<%@ Page Title="About Me" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="COMP2007Portfolio.About" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- 
      About.aspx 
      Patrick Ross
      COMP2007Portfolio
      This is the about page for my portfolio website 
--->
-
-<%@ Page Title="About Me" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="COMP2007Portfolio.About" %>
-
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    -->
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">

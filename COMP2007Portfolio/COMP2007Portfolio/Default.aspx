@@ -1,13 +1,12 @@
-﻿<!-- 
+﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="COMP2007Portfolio._default" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- 
      Default.aspx 
      Patrick Ross
      COMP2007Portfolio
      This is the home page for my portfolio website 
--->
-
-<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="COMP2007Portfolio._default" %>
-
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    -->
     <section class="bg-primary" id="default">
         <!-- spacing -->
         <br />

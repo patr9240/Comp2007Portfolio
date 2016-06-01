@@ -1,13 +1,12 @@
-﻿<!-- 
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Contact.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="COMP2007Portfolio.contact" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- 
      Contact.aspx 
      Patrick Ross
      COMP2007Portfolio
      This is the contact page for my portfolio website 
--->
-
-<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Contact.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="COMP2007Portfolio.contact" %>
-
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    -->
     <section class="bg-primary" id="contact">
         <br />
         <br />
